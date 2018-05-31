@@ -4,11 +4,17 @@ ul,li,ol{list-style-type: none}
 a{text-decoration: none !important;}
 html{font-size: 3.6vw}
 
-body {
-  max-width: 640px;
-  margin: 0 auto !important;
+@media screen and (min-width: 600px) {
+  header{
+    display: none !important;
+  }
+  section{
+    display: none !important;
+  }
+  .index_404 {
+    display: block !important;
+  }
 }
-
 
 /*  首页        index.html  */
 /*  产品中心     order.html  */

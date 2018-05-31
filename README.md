@@ -4,4 +4,4 @@
 
 蜗蜗洗车 - pc https://wishqaq.github.io/JangZiJuNiu_Work/wowo/index.html
 
-希达培训 - pc https://wishqaq.github.io/JangZiJuNiu_Work/xida_training/index.html
+<a heft="https://wishqaq.github.io/JangZiJuNiu_Work/xida_training/index.html">希达培训 - pc</a>

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 *{margin: 0;padding: 0;}
 img{width: 100%;}
 ul,li,ol{list-style-type: none}
@@ -41,6 +41,14 @@ html{font-size: 3.6vw}
 
 /******导航栏样式******/
 /*主导航*/
+
+@media (min-width: 768px){
+  .navbar-nav {
+    float: none !important;
+    padding: 10px 0;
+  }
+}
+
 .navbar{
     min-height: 10px !important;
 }

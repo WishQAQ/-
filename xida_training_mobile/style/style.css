@@ -58,6 +58,8 @@ body {
 
 /*底部导航栏*/
 .bottom_nav{
+   max-width: 40rem;
+  margin: 0 auto !important;
   background-color: #fff;
   z-index: 999999;
 }

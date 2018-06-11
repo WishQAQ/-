@@ -319,7 +319,7 @@ html {
   background-color: #fff;
   border-bottom: 1px solid #ddd;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: stretch;
   padding: 1.5rem 0;
   align-items: center;
   font-size: 1.4rem;

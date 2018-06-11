@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,
+                    initial-scale=1.0,
+                    minimum-scale=1.0,
+                    maximum-scale=1.0,
+                    user-scalable=no"
+    >
+    <title>添加新地址</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href=""><span></span></a>
+        <p>添加新地址</p>
+    </header>
+    <section class="section">
+        <form>
+            <div class="addAddress_main">
+                <div>
+                    <p>收货人姓名</p>
+                    <input type="text" />
+                </div>
+                <div>
+                    <p>手机号码</p>
+                    <input type="number" />
+                </div>
+                <div>
+                    <p>市、省、区</p>
+                    <div class="city">
+                        <select name="province"></select>
+                        <select name="city"></select>
+                        <select name="area"></select>
+                    </div>
+                </div>
+                <div>
+                    <p>详细地址</p>
+                    <input type="text" />
+                </div>
+
+            </div>
+            <input type="submit" value="提交" class="addAddress_btm" />
+        </form>
+
+
+    </section>
+<script src="js/PCASClass.js"></script>
+<script>
+  new PCAS("province","city","area","重庆市","市辖区","渝中区");
+</script>
+</body>
+</html>

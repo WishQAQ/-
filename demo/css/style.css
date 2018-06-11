@@ -293,7 +293,7 @@ html {
   border: 1px solid #999;
   padding: .2rem 1rem;
   border-radius: .2rem;
-  font-size: 1rem;
+  font-size: 1.4rem;
   color: #333;
 }
 
@@ -315,23 +315,29 @@ html {
 
 
 /*新增收货地址*/
-.addAddress_main div{
+.addAddress_main>div{
   background-color: #fff;
   border-bottom: 1px solid #ddd;
   display: flex;
   justify-content: space-between;
-  height: 3rem;
+  padding: 1.5rem 0;
   align-items: center;
   font-size: 1.4rem;
 }
-.addAddress_main div p{
+.addAddress_main>div p{
   padding-left: 0.75rem;
-  width: 30%;
+  width: 25%;
+  text-align-last: justify;
+  margin-right: 1rem;
+}
+.addAddress_main>div p span{
+  width: 100%;
+  display: inline-block;
+  text-align: justify;
 }
 .addAddress_main div input{
   outline:none;
   margin-right: 0.75rem;
-  width: 70%;
   border: none;
   height: 100%;
 }
@@ -341,6 +347,7 @@ html {
   justify-content: space-evenly;
 }
 .addAddress_main div .city select{
+  flex: 1;
   outline:none;
   border-radius: 0;
   border: none;

@@ -326,4 +326,7 @@ html {
   height: 100%;
   background-color: #fff;
   font-size: 1.2rem;
+  appearance:none;
+  -moz-appearance:none;    /*for firefox*/
+  -webkit-appearance:none;    /*for chrome*/
 }

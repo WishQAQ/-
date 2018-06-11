@@ -3,6 +3,27 @@
 ul,li,ol{list-style-type: none}
 a{text-decoration: none !important;color: inherit;}
 img{width: 100%;}
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  -webkit-appearance: none;
+}
+textarea {
+  -webkit-appearance: none;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+input:focus{
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  -webkit-user-modify:read-write-plaintext-only;
+}
+input::-ms-clear {
+  display: none;
+}
+
+
 body {
   margin: 0 auto !important;
   font-weight: 300;

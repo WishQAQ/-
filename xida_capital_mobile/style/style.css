@@ -347,13 +347,15 @@ section{
 }
 .advertising_left{
   width: 12.5rem;
+  position: relative;
+  left: -2rem;
 }
 .advertising_center{
-  width: 15.5rem;
+  width: 17rem;
   color: #fff;
 }
 .advertising_center p:nth-child(1){
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 .advertising_center span{
   display: block;
@@ -418,15 +420,15 @@ section{
   justify-content: center;
   border-radius: 2rem;
   height: 3rem;
-  width: 27rem;
-  font-size: 1.2rem;
+  width: 30rem;
+  font-size: 1rem;
   color: #333;
   z-index: 1;
   position: relative;
   right: .5rem;
 }
 .main_3_box_text_txt span{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #ae2431;
   font-weight: bold;
 }

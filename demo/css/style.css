@@ -336,6 +336,7 @@ html {
   text-align: justify;
 }
 .addAddress_main div input{
+  display: inline-block;
   outline:none;
   border: none;
   height: 100%;

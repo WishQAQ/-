@@ -337,7 +337,7 @@ html {
 }
 .addAddress_main div input{
   outline:none;
-  margin-right: 0.75rem;
+  margin-right: 2rem;
   border: none;
   height: 100%;
 }

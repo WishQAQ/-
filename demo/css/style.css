@@ -339,6 +339,7 @@ html {
   outline:none;
   border: none;
   height: 100%;
+  width: 65%;
 }
 
 .content-block{

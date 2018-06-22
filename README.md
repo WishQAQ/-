@@ -12,6 +12,8 @@
 
 希达资本 - pc      https://wishqaq.github.io/JangZiJuNiu_Work/xida_capital/index.html
 
+希达金服 - pc      https://wishqaq.github.io/JangZiJuNiu_Work/xida_jinfu/index.html
+
 
 # mobile端项目 -
 

@@ -14,6 +14,7 @@ $(document).ready(function(){
   tab("#tab_b2 li",'.box3');
   tab("#tab_c2 li",'.box4');
   tab("#tab_d2 li",'.box5');
+  tab("#tab101 li",'.box1011');
 });
 
 // 单层tab

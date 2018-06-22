@@ -5,6 +5,8 @@ var swiper1 = new Swiper('.swiper-container_banner', {  //banner 轮播 banner
   },
 });
 var swiper2 = new Swiper('.swiper-container_main_2', {  //认证 轮播 main_2
+  observer:true,
+  observeParents:true,
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
@@ -62,8 +64,6 @@ var certifySwiper2 = new Swiper('.main_8_box .swiper-container_main_8',{
   watchSlidesProgress: true,
   slidesPerView: 'auto',
   centeredSlides: true,
-  loop: true,
-  loopedSlides: 5,
   observer:true,
   observeParents:true,
   pagination: {

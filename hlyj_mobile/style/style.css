@@ -1067,13 +1067,18 @@ body {
 .main_10_1 .main_8_box{
   margin-top: .3rem;
   margin-bottom: 0;
+  width: 80%;
 }
+
+
+.main_10_1{}
 
 
 .main_11{
   font-size: .2rem;
   padding: .3rem 0;
   background-color: #f2f2f2;
+  margin-top: .5rem;
 }
 
 .main_11 #tab_title_11 {
@@ -1111,6 +1116,7 @@ body {
   float: right;
   border: none;
   color: #b39962;
+  font-size: .2rem;
 }
 
 

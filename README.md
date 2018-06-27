@@ -2,7 +2,7 @@
 
 ## pc端项目 - 
 
-* 国诚财务 - pc      https://wishqaq.github.io/JangZiJuNiu_Work/gcgw/index.html
+* 国诚顾问 - pc      https://wishqaq.github.io/JangZiJuNiu_Work/gcgw/index.html
 
 * 蜗蜗洗车 - pc      https://wishqaq.github.io/JangZiJuNiu_Work/wowo/index.html
 

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,
+                    initial-scale=1.0,
+                    minimum-scale=1.0,
+                    maximum-scale=1.0,
+                    user-scalable=no"
+    >
+    <title>泰德钢筋-手机端</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/swiper.min.css">
+</head>
+<body>
+
+<header>
+    <div class="header_top">
+        <div class="logo">
+            <a href="">
+                <img src="img/logo.png">
+            </a>
+        </div>
+
+        <div class="header_top_right">
+            <div class="header_tel">
+                <div></div>
+                <p>全国咨询热线：<span>400-850-2788</span></p>
+            </div>
+            <div class="header_center">提供钢筋网片设计、生产、一站式服务</div>
+            <div class="header_bottom">20余年钢筋工程方案定制经验，世界500强优质供应商</div>
+        </div>
+    </div>
+    
+    <nav class="nav">
+        <ul>
+            <li class="active"><a href="">首  页</a></li>
+            <li><a href="">钢筋焊接网</a></li>
+            <li><a href="">煤矿支护网</a></li>
+            <li><a href="">钢芭片脚踏网</a></li>
+            <li><a href="">产品中心</a></li>
+            <li><a href="">荣誉资质</a></li>
+            <li><a href="">工程案例</a></li>
+            <li><a href="">新闻中心</a></li>
+            <li><a href="">关于泰德</a></li>
+            <li><a href="">联系泰德</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+
+<section>
+
+    <div class="banner">
+        <div class="swiper-container" id="banner_swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/banner_1.jpg"></div>
+                <div class="swiper-slide"><img src="img/banner_2.png"></div>
+                <div class="swiper-slide"><img src="img/banner_3.png"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="main_1">
+        <div class="main_1_title">产品直通车</div>
+        <div class="main_1_nav">
+            <ul>
+                <li><a href="">钢筋焊接网</a></li>
+                <li><a href="">钢筋焊接网</a></li>
+                <li><a href="">钢筋焊接网</a></li>
+                <li><a href="">钢筋焊接网</a></li>
+                <li><a href="">钢筋焊接网</a></li>
+                <li><a href="">钢筋焊接网</a></li>
+                <li><a href="">钢筋焊接网</a></li>
+                <li><a href="">钢筋焊接网</a></li>
+            </ul>
+        </div>
+
+        <div class="main_1_center">
+            <div class="swiper-container" id="main_1_swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/main_1_1.jpg"></div>
+                    <div class="swiper-slide"><img src="img/main_1_2.jpg"></div>
+                    <div class="swiper-slide"><img src="img/main_1_3.jpg"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+
+        <div class="main_1_bottom">
+            <div class="main_1_bottom_list">
+                <div class="main_1_bottom_list_img"><img src="img/main_1_2.jpg"></div>
+                <div class="main_1_bottom_list_buttons">
+                    <a href="">立即咨询</a>
+                    <a href="">我要采购</a>
+                </div>
+            </div>
+            <div class="main_1_bottom_list">
+                <div class="main_1_bottom_list_img"><img src="img/main_1_2.jpg"></div>
+                <div class="main_1_bottom_list_buttons">
+                    <a href="">立即咨询</a>
+                    <a href="">我要采购</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</section>
+
+
+<footer></footer>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/tab.js"></script>
+
+<script>
+    var swiper = new Swiper('#banner_swiper', {
+        autoplay: true,
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+    var swiper = new Swiper('#main_1_swiper', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+
+</body>
+</html>

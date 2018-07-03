@@ -14,12 +14,15 @@
 
 * [希达金服 - pc](https://wishqaq.github.io/JangZiJuNiu_Work/xida_jinfu/index.html)
 
+* [领视科技 - pc](https://wishqaq.github.io/JangZiJuNiu_Work/lingshi/index.html)
 
 ## mobile端项目 -
 
 * [国诚财务 - mobile](https://wishqaq.github.io/JangZiJuNiu_Work/gcgw_mobile/index.html)                 //未使用框架  限定600px宽度 可PC手机直接观看 共8个页面
 
 * [华丽雅洁 - mobile](https://wishqaq.github.io/JangZiJuNiu_Work/hlyj_mobile/)                    //未使用框架  限定600px宽度 可PC手机直接观看 单页
+
+* [秉立锦为 - mobile](https://wishqaq.github.io/JangZiJuNiu_Work/bljw_mobile/)                    //未使用框架  限定600px宽度 可PC手机直接观看 单页
 
 * [蜗蜗洗车 - mobile](https://wishqaq.github.io/JangZiJuNiu_Work/wowo_mobile/index.html)          //未使用框架  限定600px宽度 可PC手机直接观看 单页
 

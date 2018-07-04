@@ -107,6 +107,16 @@ html {
 .header_top_right .header_tel{
     font-size: .2rem;
     color: #008cd7;
+
+}
+.header_top_right .header_tel div{
+    width: .35rem;
+    display: inline-block;
+}
+.header_top_right .header_tel p{
+    display: inline-block;
+    position: relative;
+    top: -.04rem;
 }
 .header_top_right .header_tel span{
     font-family: Impact;
@@ -313,6 +323,7 @@ html {
 
 .main_2_nav{
     padding: 0 .15rem;
+    margin-top: .1rem;
 }
 .main_2_nav a{
     color: #2560ba !important;
@@ -501,8 +512,8 @@ html {
 .main_4_text_title span{
     display: block;
     margin: .15rem auto 0 auto;
-    width: .4rem;
-    height: .01rem;
+    width: .6rem;
+    height: .02rem;
     background-color: #015db2;
 }
 
@@ -685,6 +696,7 @@ html {
     background-color: #1f375b;
     text-align: center;
     padding: .4rem .4rem .2rem .4rem;
+    margin-bottom: .8rem;
 }
 
 .footer .links{

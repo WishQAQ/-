@@ -1,0 +1,244 @@
+body{
+    background-color: #f6f9fb;
+}
+
+/*顶部*/
+.header{
+    background-color: #58bcbb;
+    height: .75rem;
+}
+.header_left{
+    width: 20%;
+    font-size: .3rem;
+    color: #fff;
+}
+
+.header_center{
+    width: 55%;
+    position: relative;
+}
+.header_center span{
+    width: .3rem;
+    height: .3rem;
+    position: absolute;
+    left: .1rem;
+    top: 50%;
+    margin-top: -.15rem;
+}
+.header_center input{
+    border: .011rem solid #fff;
+    background-color: transparent;
+    border-radius: 1rem;
+    display: block;
+    width: 100%;
+    height: .4rem;
+    padding-left: .5rem;
+    color: #fff;
+}
+
+.header_right{
+    width: 20%;
+    padding-left: .2rem;
+}
+.header_right div{
+    width: .4rem;
+    height: .4rem;
+}
+
+
+
+
+/*主体内容*/
+.main_1{
+    padding-top: .3rem;
+    padding-bottom: .1rem;
+    background-color: #fff;
+}
+.main_1 .main_1_box{
+    width: 25%;
+    text-align: center;
+    font-size: .2rem;
+    color: #777;
+}
+.main_1 .main_1_box div{
+    width: 70%;
+    height: 1rem;
+    margin: 0 auto;
+}
+
+
+
+.main_2{
+    height: .55rem;
+    background-color: #fff;
+    margin: .1rem 0;
+    overflow: hidden;
+}
+.main_2>span{
+    display: inline-block;
+    width: .25rem;
+    height: .25rem;
+    margin-right: .05rem;
+}
+.main_2>p{
+    font-size: .2rem;
+    color: #333;
+}
+.main_2>.main_2_swiper{
+    width: 70%;
+    font-size: .2rem;
+    color: #999;
+    overflow: hidden;
+    height: .55rem;
+}
+.main_2>.main_2_swiper .swiper-slide{
+    justify-content: left;
+}
+.main_2>.main_2_swiper .swiper-slide a{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.main_2_bottom{
+    margin: 0 .1rem;
+}
+
+
+
+
+
+.main_3_title{
+    background-color: #fff;
+    height: .7rem;
+    font-size: .25rem;
+    color: #58bcbb;
+    margin: .15rem 0;
+}
+.main_3_title span{
+    display: block;
+    background-color: #58bcbb;
+    height: .011rem;
+    width: .4rem;
+    margin: 0 .15rem;
+}
+
+
+.main_3_box{
+    padding: .3rem .15rem 0 .15rem;
+    background-color: #fff;
+    border-bottom: .011rem solid #f5f5f5;
+}
+
+.main_3_box_top{
+    margin-bottom: .25rem;
+}
+/*店铺图片*/
+.main_3_box_top_left{
+    width: 15%;
+    height: 1.1rem;
+}
+
+
+/*店铺信息*/
+.main_3_box_top_center{
+    color: #999;
+    width: 53%;
+}
+/*店铺名称*/
+.main_3_box_top_center h2{
+    font-size: .25rem;
+    color: #000;
+}
+
+/*星级/月售*/
+.main_3_box_top_center_box{
+    margin: .05rem 0;
+}
+/*评分*/
+.main_3_box_top_center_box div:nth-child(1) p:nth-child(2){
+    margin: 0 .1rem;
+    color: #ffc119;
+    font-size: .15rem;
+}
+/*星级*/
+.main_3_box_top_center_box ul li{
+    display: inline-block;
+    width: .15rem;
+    height: .15rem;
+}
+/*月售*/
+.main_3_box_top_center_box>div:nth-child(1){
+    font-size: .2rem;
+}
+/*起送费/运费*/
+.main_3_box_top_center>div:nth-child(3){
+    font-size: .17rem;
+}
+.main_3_box_top_center>div:nth-child(3) p{
+    margin: 0 .05rem;
+}
+
+/*配送时间/距离*/
+.main_3_box_top_right{
+    font-size: .2rem;
+    color: #999;
+
+}
+.main_3_box_top_right p{
+    margin: 0 .05rem;
+}
+
+
+/*优惠列表*/
+.main_3_box_bottom{
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+    border-top: .011rem dashed #ccc;
+    margin: 0 0 0 auto;
+    width: 80%;
+}
+.main_3_box_bottom ul li{
+    margin-top: .05rem;
+}
+
+.main_3_box_bottom ul li p{
+    display: inline-block;
+}
+.main_3_box_bottom ul li p:nth-child(1){
+    font-size: .17rem;
+    color: #999;
+}
+.main_3_box_bottom ul li p:nth-child(1) span{
+    color: #fff;
+    background-color: #58bcbb;
+    display: inline-block;
+    border-radius: .05rem;
+    padding: 0 .04rem;
+    margin-right: .1rem;
+}
+.main_3_box_bottom ul li:nth-child(1) p:nth-child(2){
+    background: url("../img/main_3_3.png") no-repeat;
+    background-size: contain;
+    width: .15rem;
+    height: .1rem;
+    margin: 0 0 0 auto;
+}
+.main_3_box_bottom:hover li:not(:nth-child(1)){
+    display: flex;
+}
+.main_3_box_bottom ul li:not(:nth-child(1)){
+    display: none;
+}
+
+
+
+/*底部*/
+.main_bottom{
+    text-shadow: 0 2px white;
+    font-size: .17rem;
+    font-weight: bold;
+    color: #ccc;
+    margin: .2rem 0;
+}

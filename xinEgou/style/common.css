@@ -2,7 +2,7 @@
 *{margin: 0;padding: 0;}
 ul,li,ol{list-style-type: none}
 a{text-decoration: none !important;color: inherit;}
-input,textarea{outline:none;}
+input,textarea{outline:none;-webkit-appearance: none;}
 img{width: 100%;display: block}
 html{font: normal 16px "Arial", "Microsoft yahei","PingFang"; }
 body {

@@ -117,11 +117,9 @@
     text-decoration: none;
 }
 .qwe a:hover{  background-color:#EEE; }
-.qwe a:focus + .drop-down {  display: inline-block; }
 .qwe a:focus + .drop-down li{  display: inline-block; }
 
 .qwe .drop-down{
-    display: none;
 }
 .qwe ul{
     border:1px solid #333;

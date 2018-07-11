@@ -35,8 +35,8 @@
       <file leaf-file-name="merchant.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/merchant.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="59" column="15" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="15" />
+            <state relative-caret-position="588">
+              <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -44,8 +44,8 @@
       <file leaf-file-name="merchant.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/merchant.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
+            <state relative-caret-position="178">
+              <caret line="119" column="26" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -166,12 +166,12 @@
       <workItem from="1531186787171" duration="6275000" />
       <workItem from="1531198573857" duration="7461000" />
       <workItem from="1531270719705" duration="5887000" />
-      <workItem from="1531278747603" duration="1414000" />
+      <workItem from="1531278747603" duration="1669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21042000" />
+    <option name="totallyTimeSpent" value="21297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -508,15 +508,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/merchant.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="59" column="15" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="15" />
+        <state relative-caret-position="588">
+          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/merchant.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
+        <state relative-caret-position="178">
+          <caret line="119" column="26" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
         </state>
       </provider>
     </entry>

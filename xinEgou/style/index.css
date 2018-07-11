@@ -233,6 +233,9 @@
 .main_3_box_bottom ul li:not(:nth-child(1)){
     display: none;
 }
+.main_3_box_bottom ul:hover li:not(:nth-child(1)){
+    display: none;
+}
 
 
 

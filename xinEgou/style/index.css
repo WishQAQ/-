@@ -193,49 +193,6 @@
 }
 
 
-/*优惠列表*/
-.main_3_box_bottom{
-    padding-top: .1rem;
-    padding-bottom: .1rem;
-    border-top: .011rem dashed #ccc;
-    margin: 0 0 0 auto;
-    width: 80%;
-}
-.main_3_box_bottom ul li{
-    margin-top: .05rem;
-}
-
-.main_3_box_bottom ul li p{
-    display: inline-block;
-}
-.main_3_box_bottom ul li p:nth-child(1){
-    font-size: .17rem;
-    color: #999;
-}
-.main_3_box_bottom ul li p:nth-child(1) span{
-    color: #fff;
-    background-color: #58bcbb;
-    display: inline-block;
-    border-radius: .05rem;
-    padding: 0 .04rem;
-    margin-right: .1rem;
-}
-.main_3_box_bottom ul li:nth-child(1) p:nth-child(2){
-    background: url("../img/main_3_3.png") no-repeat;
-    background-size: contain;
-    width: .15rem;
-    height: .1rem;
-    margin: 0 0 0 auto;
-}
-.main_3_box_bottom:hover li:not(:nth-child(1)){
-    display: flex;
-}
-.main_3_box_bottom ul li:not(:nth-child(1)){
-    display: none;
-}
-.main_3_box_bottom ul:active li:not(:nth-child(1)){
-    display: none;
-}
 
 
 

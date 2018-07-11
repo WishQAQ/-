@@ -21,18 +21,23 @@
 <div class="header_zhanwei"></div>
 <!--如有浮动固定顶部导航栏需占位标签 结束-->
 <header class="header flex_between">
-    <div class="header_left flex_center"><a href="" class="flex_center"><img src="img/header_back_arrow.png"></a></div>
+    <div class="header_left flex_center">
+        <a href="javascript:history.go(-1);" class="flex_center"><img src="img/header_back_arrow.png"></a>
+    </div>
     <div class="header_center">
         <span><img src="img/search.png"></span>
         <input class="font_pingfang" type="text" placeholder="搜索店内宝贝">
     </div>
     <div class="header_right flex_center">
-        <select>
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
-        </select>
+        <div class="flex_between"><span></span><span></span><span></span></div>
+        <ul style="display: none;">
+            <span></span>
+            <li><a href=""><div><img src="img/header_list_1.png"></div><div><p>消息</p><span class="news">5</span></div></a></li>
+            <li><a href=""><div><img src="img/header_list_2.png"></div><div><p>首页</p></div></a></li>
+            <li><a href=""><div><img src="img/header_list_3.png"></div><div><p>搜索</p></div></a></li>
+            <li><a href=""><div><img src="img/header_list_4.png"></div><div><p>购物车</p></div></a></li>
+            <li><a href=""><div><img src="img/header_list_5.png"></div><div><p>我的</p></div></a></li>
+        </ul>
     </div>
 </header>
 
@@ -42,34 +47,37 @@
             <div class="main_1_img"><img src="img/main_3.jpg"></div>
             <div class="main_1_text">
                 <p><a href="">重庆市九龙坡店></a></p>
-                <p>54分钟|230m</p>
+                <p><span>54分钟</span>|<span>230m</span></p>
             </div>
         </div>
         <div class="main_1_right">
-            <div class="flex_between">
+            <div class="main_1_right_top flex_between">
                 <a href=""><img src="img/merchant_phone.png"></a>
-                <a href=""><img src="img/merchant_main_1_2.png" alt=""></a>
+                <a href=""><img src="img/merchant_main_1_2.png"></a>
             </div>
-            <p><a href="">店铺信息></a></p>
+            <div class="main_1_right_bottom"><a href="">店铺信息></a></div>
         </div>
+    </div>
+
+    <div class="main_3_box_bottom width_padding">
+        <ul>
+            <li class="show flex_between"><p><span>优惠</span>满99减39</p><p>5个活动<span></span></p></li>  <!--默认显示-->
+            <li class="hidden flex_between"><p><span>优惠</span>满99减39</p><p></p></li>
+            <li class="hidden flex_between"><p><span>优惠</span>满99减39</p><p></p></li>
+            <li class="hidden flex_between"><p><span>优惠</span>满99减39</p><p></p></li>
+            <li class="hidden flex_between"><p><span>优惠</span>满99减39</p><p></p></li>
+        </ul>
+    </div>
+
+
+    <div class="main_2">
+
+
+        
     </div>
 
 </section>
 
-
-<div class="qwe">
-    <a href="#">Menu</a>
-    <div class="drop-down" id="drop-down">
-        <ul>
-            <li>Option 1</li>
-            <li>Option 2</li>
-            <li>Option 3</li>
-            <li>Option 4</li>
-        </ul>
-    </div>
-</div>
-
-<div>1231</div>
 
 
 

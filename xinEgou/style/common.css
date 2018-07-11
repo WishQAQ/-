@@ -9,6 +9,7 @@ body {
     margin: 0 auto !important;
     max-width: 640px;
     position: relative;
+    background-color: #f6f9fb;
 }
 
 
@@ -116,11 +117,13 @@ html {
 }
 
 
-
-
-
+/*顶部占位*/
+.header_zhanwei{
+    height: .75rem;
+}
+/*底部占位*/
 .nav_zhanwei{
-    height: .85rem;
+    height: .95rem;
 }
 
 /*浮动导航栏*/

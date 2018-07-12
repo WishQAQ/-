@@ -22,6 +22,8 @@
 
 ## mobile端项目 -
 
+* [川田门业 - mobile](https://wishqaq.github.io/JangZiJuNiu_Work/chuantian/)                    //媒体查询控制  限定600px宽度 可PC手机直接观看 单页
+
 * [新E购商城 - mobile](https://wishqaq.github.io/JangZiJuNiu_Work/xinEgou/index.html)                    //媒体查询控制  限定600px宽度 可PC手机直接观看 单页
 
 * [泰德钢筋 - mobile](https://wishqaq.github.io/JangZiJuNiu_Work/taide_mobile/)                    //媒体查询控制  限定600px宽度 可PC手机直接观看 单页

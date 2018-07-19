@@ -7,12 +7,13 @@
     top: 0;
     width: 100%;
     max-width: 640px;
-    z-index: 99999;
+    z-index: 999;
 }
 .header_left{
     width: 20%;
     font-size: .3rem;
     color: #fff;
+    line-height: .75rem;
 }
 
 .header_center{
@@ -127,80 +128,7 @@
 }
 
 
-.main_3_box{
-    padding: .3rem .15rem 0 .15rem;
-    background-color: #fff;
-    border-bottom: .011rem solid #f5f5f5;
-}
-
-.main_3_box_top{
-    margin-bottom: .25rem;
-}
-/*店铺图片*/
-.main_3_box_top_left{
-    width: 15%;
-    height: 1.1rem;
-}
-
-
-/*店铺信息*/
-.main_3_box_top_center{
-    color: #999;
-    width: 53%;
-}
-/*店铺名称*/
-.main_3_box_top_center h2{
-    font-size: .25rem;
-    color: #000;
-}
-
-/*星级/月售*/
-.main_3_box_top_center_box{
-    margin: .05rem 0;
-}
-/*评分*/
-.main_3_box_top_center_box div:nth-child(1) p:nth-child(2){
-    margin: 0 .1rem;
-    color: #ffc119;
-    font-size: .15rem;
-}
-/*星级*/
-.main_3_box_top_center_box ul li{
-    display: inline-block;
-    width: .15rem;
-    height: .15rem;
-}
-/*月售*/
-.main_3_box_top_center_box>div:nth-child(1){
-    font-size: .2rem;
-}
-/*起送费/运费*/
-.main_3_box_top_center>div:nth-child(3){
-    font-size: .17rem;
-}
-.main_3_box_top_center>div:nth-child(3) p{
-    margin: 0 .05rem;
-}
-
-/*配送时间/距离*/
-.main_3_box_top_right{
-    font-size: .2rem;
-    color: #999;
-
-}
-.main_3_box_top_right p{
-    margin: 0 .05rem;
-}
 
 
 
 
-
-/*底部*/
-.main_bottom{
-    text-shadow: 0 2px white;
-    font-size: .17rem;
-    font-weight: bold;
-    color: #ccc;
-    margin: .2rem 0;
-}

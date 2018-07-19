@@ -9,7 +9,26 @@ function tab(tabID,box){
 }
 $(document).ready(function(){
   //选项卡
-  tab("#tab1 li",'.box1');
-  tab("#tab21 li",'.box21');
-  tab("#tab91 li",'.box91');
+  tab("#tab11 li",'.box1');
+  tab("#tab22 li",'.box2');
 });
+
+
+
+
+
+
+<!--数量加减-->
+var num_jia = document.getElementById("num-jia");
+var num_jian = document.getElementById("num-jian");
+var input_num = document.getElementById("input-num");
+num_jia.onclick = function() {
+    input_num.value = parseInt(input_num.value) + 1;
+}
+num_jian.onclick = function() {
+        if(input_num.value <= 0) {
+            input_num.value = 0;
+        } else {
+            input_num.value = parseInt(input_num.value) - 1;
+        }
+    }
